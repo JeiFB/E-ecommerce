@@ -23,7 +23,7 @@ h1{
     font-size: 3.8rem;
 }
 
-.container {
+.container{
     border: solid var(--naranja);
     width: 320px; /*para modificar las dimensiones de la caja en este caso el ancho de la caja*/
     height: 420px; /* para modificar la altura de la caja*/
@@ -35,6 +35,7 @@ h1{
     transform: translate(-50%, -50%);
     box-sizing: border-box;
     padding: 70px 30px;
+    border-radius: 10px;
     
 }
 
@@ -74,4 +75,22 @@ h1{
     color: #fff;
     font-size: 18px;
     border-radius: 20px;
+}
+
+
+.container input[type="submit"]:hover {
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+  
+.container a {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+}
+  
+.container a:hover {
+    color: #fff;
 }
